@@ -1,0 +1,95 @@
+*{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.float{
+    float: right;
+}
+.floatleft{
+    float: left;
+}
+.padding{
+    padding-right: 32px;
+}
+a{
+    color: gray;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+i{
+   color: magenta;
+   margin-right: 10px;
+}
+.nav{
+    height: 70px;
+    background-color: black;
+
+}
+.sbelement{
+    padding: 20px;
+    margin-left: 10px;
+    width: 170px;
+    background-color: black;
+    margin-left: -300px;
+    transition: .6s;
+}
+.sbelement li{
+    padding-top: 15px;
+}
+#navbtn{
+    display: none;
+}
+#navbtn:checked ~ .sbelement{
+    margin-left: 0px;
+    transition: .6s;
+}
+label{
+    cursor: pointer;
+    border-right: 1px solid #d1d4d9;
+    display: block;
+    height: 64px;
+    width: 64px;
+    position: relative;
+}
+label span{
+    border-radius: 15%;
+    height: 3px;
+    width: 32px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -15px;
+}
+label span:before {
+    border-radius: 15%;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    top:-400%;
+    
+}
+label span:after{
+    border-radius: 15%;
+    position: absolute;
+    content:"";
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    top: 400%;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+*{
+
+    text-decoration: none;
+    list-style: none;
+}
+
+.hero-title{
+    margin-top: 150px;
+}
+
+.hero-border{
+    border: 3px solid gold;
+}
+
+    .seemore{
+        color: greenyellow;
+        padding: 2px;
+    }
+    
+    .seemore:hover{
+        text-decoration: none;
+        color: blueviolet;
+        background-color: aqua;
+    }
+    .footer{
+        border: 3px solid violet;
+    }
+    .footer ul li{
+        color: white;
+    }
+.footer ul li a{
+    color: green;
+}
+
+
+.cat{
+    position: absolute;
+    background-color: aquamarine;
+    display: none;
+}
+.cat li{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid purple;
+}
+.cat li a{
+    color: black;
+}
+.dropdown:hover .cat{
+    display: block;
+}
+
+
+
